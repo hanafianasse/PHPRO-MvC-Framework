@@ -15,7 +15,6 @@ class AuthController Extends baseController {
 		}catch(IBMException $ibm) {
 			$this->registry->template->show('auth/login');
 			echo '<script type="text/javascript">$("#loginbox").effect("shake");</script>';
-			//echo $ibm->getError();
 		}
 	}
 
