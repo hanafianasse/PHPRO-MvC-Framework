@@ -61,15 +61,15 @@ class router {
 	if (is_readable($this->file) == false)
 	{
 		$this->file = $this->path.'/error404.php';
-                $this->controller = 'error404';
+		$this->controller = 'error404';
 	}
 
 	/*** include the controller ***/
 	include $this->file;
 
 	/*** a new controller class instance ***/
-	$class = $this->controller . 'Controller'; // compteController
-	$controller = new $class($this->registry);   //   <=============  ???
+	$class = $this->controller . 'Controller';
+	$controller = new $class($this->registry);
 
 	/*** check if the action is callable ***/
 	if (is_callable(array($controller, $this->action)) == false)
@@ -106,7 +106,7 @@ private function getController() {
 	else
 	{
 		/*** get the parts of the route ***/
-		$parts = explode('/', $route); //  blog/view 
+		$parts = explode('/', $route);
 		$this->controller = $parts[0];
 		if(isset( $parts[1]))
 		{
