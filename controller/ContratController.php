@@ -8,6 +8,7 @@ class ContratController Extends baseController {
 			$this->registry->template->login = $_SESSION["connectedUser"];
 			$this->registry->template->show('includes/header');
 			$this->registry->template->show('contrats/list');
+			print('<script>selectOnglet2();</script>');
 		}else{
 			header('location:/Exemple_mvc_pdo/index.php?rt=auth');
 		}

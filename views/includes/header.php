@@ -22,8 +22,8 @@
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li><a href="index.php?rt=Adherent">Adhérents<span class="sr-only">(current)</span></a></li>
-						<li><a href="index.php?rt=Contrat">Contrats</a></li>
+						<li id="onglet-1"><a href="index.php?rt=Adherent">Adhérents<span class="sr-only">(current)</span></a></li>
+						<li id="onglet-2"><a href="index.php?rt=Contrat">Contrats</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
@@ -39,3 +39,16 @@
 				</div>
 			</div>
 		</nav>
+
+
+<script type="text/javascript">
+	var selectOnglet1 = function(){
+		document.getElementById("onglet-2").classList.remove("active");
+		document.getElementById("onglet-1").classList.add("active");
+	}
+
+	var selectOnglet2 = function(){
+		document.getElementById("onglet-2").classList.add("active");
+		document.getElementById("onglet-1").classList.remove("active");
+	}
+</script>
