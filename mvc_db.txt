@@ -1,0 +1,38 @@
+-- phpMyAdmin SQL Dump 
+-- version 3.2.1
+-- http://www.phpmyadmin.net
+--
+-- Serveur: localhost
+-- Généré le : Ven 01 Janvier 2012 à 02:05
+-- Version du serveur: 5.1.37
+-- Version de PHP: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Base de données: `mvc_db`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `compte`
+--
+
+CREATE TABLE IF NOT EXISTS `compte` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nom` varchar(50) NOT NULL,
+  `prenom` varchar(50) NOT NULL,
+  `login` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `solde` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Contenu de la table `compte`
+--
+
+INSERT INTO `compte` (`id`, `nom`, `prenom`, `login`, `password`, `email`, `solde`) VALUES
+(1, 'Joulal', 'Imad', 'imad', 'imad2012', 'imad2012@gmail.com', '3050');
