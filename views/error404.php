@@ -21,11 +21,11 @@
 		</div>
 	</div>
 	<footer class="text-center footer">
-    <hr/>
-    <p>Author:
-        <a href="https://github.com/hanafianasse" target="_blank">Anasse HANAFI</a>
-    </p>
-    <p>&copy; 2017</p>
+		<hr/>
+		<p>Author:
+				<a href="https://github.com/hanafianasse" target="_blank">Anasse HANAFI</a>
+		</p>
+		<p>&copy; 2017</p>
 </footer>
 </body>
 </html>

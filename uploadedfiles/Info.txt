@@ -1,0 +1,8 @@
+Notes Name and Domain of the user:	 Anasse Hanafi-ISC France/France/IBM @ IBM
+Shortname of the user:	 FR310504
+The user's Homeserver is:	 NALLN488/40/LLN/IBM
+Mail Directory is:	data0/126/23235886.nsf
+Mailfile is:	data0/126/23235886.nsf
+The ID's filename is	FR310504.ID
+Lotus Notes password:	mm3a8upa
+	(Passwords are case sensitive and must be entered as shown)
